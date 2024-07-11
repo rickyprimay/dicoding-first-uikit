@@ -11,11 +11,11 @@
 		EA74A55B2C400F5300852476 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA74A55A2C400F5300852476 /* SceneDelegate.swift */; };
 		EA74A55D2C400F5300852476 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA74A55C2C400F5300852476 /* ViewController.swift */; };
 		EA74A5602C400F5300852476 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EA74A55F2C400F5300852476 /* Base */; };
-		EA74A5622C400F5500852476 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA74A5612C400F5500852476 /* Assets.xcassets */; };
 		EA74A5652C400F5500852476 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EA74A5642C400F5500852476 /* Base */; };
 		EA74A5702C400F5500852476 /* dicoding_firstTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA74A56F2C400F5500852476 /* dicoding_firstTests.swift */; };
 		EA74A57A2C400F5500852476 /* dicoding_firstUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA74A5792C400F5500852476 /* dicoding_firstUITests.swift */; };
 		EA74A57C2C400F5500852476 /* dicoding_firstUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA74A57B2C400F5500852476 /* dicoding_firstUITestsLaunchTests.swift */; };
+		EA74A58B2C400F8700852476 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA74A58A2C400F8700852476 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,6 @@
 		EA74A55A2C400F5300852476 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EA74A55C2C400F5300852476 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EA74A55F2C400F5300852476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EA74A5612C400F5500852476 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA74A5642C400F5500852476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA74A5662C400F5500852476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA74A56B2C400F5500852476 /* dicoding-firstTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dicoding-firstTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +48,7 @@
 		EA74A5752C400F5500852476 /* dicoding-firstUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dicoding-firstUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA74A5792C400F5500852476 /* dicoding_firstUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dicoding_firstUITests.swift; sourceTree = "<group>"; };
 		EA74A57B2C400F5500852476 /* dicoding_firstUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dicoding_firstUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EA74A58A2C400F8700852476 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Dicoding/learn-iOS/learn-iOS/Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 				EA74A55A2C400F5300852476 /* SceneDelegate.swift */,
 				EA74A55C2C400F5300852476 /* ViewController.swift */,
 				EA74A55E2C400F5300852476 /* Main.storyboard */,
-				EA74A5612C400F5500852476 /* Assets.xcassets */,
+				EA74A58A2C400F8700852476 /* Assets.xcassets */,
 				EA74A5632C400F5500852476 /* LaunchScreen.storyboard */,
 				EA74A5662C400F5500852476 /* Info.plist */,
 			);
@@ -231,8 +231,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA74A5622C400F5500852476 /* Assets.xcassets in Resources */,
 				EA74A5652C400F5500852476 /* Base in Resources */,
+				EA74A58B2C400F8700852476 /* Assets.xcassets in Resources */,
 				EA74A5602C400F5300852476 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
